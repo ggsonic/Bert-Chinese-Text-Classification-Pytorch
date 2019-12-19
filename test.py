@@ -3,7 +3,8 @@ import time
 import torch
 import numpy as np
 #from train_eval import train, init_network
-from importlib import import_module
+#from importlib import import_module
+from models import bert
 #import argparse
 #from utils import build_dataset, build_iterator, get_time_dif
 
@@ -40,7 +41,8 @@ text="刘嘉玲称工作令其容光焕发"
 
 if True:
     dataset = 'THUCNews'  # 数据集
-    x = import_module('models.bert')
+    #x = import_module('models.bert')
+    x = bert
     config = x.Config(dataset)
     np.random.seed(1)
     torch.manual_seed(1)
