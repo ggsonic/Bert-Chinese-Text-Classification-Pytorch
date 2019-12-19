@@ -38,6 +38,7 @@ tensorboardX
 
 模型|acc|备注
 --|--|--
+bert-wwm-ext|94.92%|bert wwm ext
 bert|94.83%|单纯的bert
 ERNIE|94.61%|说好的中文碾压bert呢  
 bert_CNN|94.44%|bert + CNN  
@@ -57,7 +58,7 @@ bert模型放在 bert_pretain目录下，ERNIE模型放在ERNIE_pretrain目录�
 
 预训练模型下载地址：  
 
-BERT-wwm-ext, Chinese https://github.com/ymcui/Chinese-BERT-wwm
+BERT-wwm-ext, Chinese https://github.com/ymcui/Chinese-BERT-wwm 
 
 bert_Chinese: 模型 https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-chinese.tar.gz  
               词表 https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-chinese-vocab.txt  
